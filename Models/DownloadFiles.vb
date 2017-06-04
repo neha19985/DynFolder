@@ -12,7 +12,7 @@ Namespace Models
 
                 lstFiles.Add(New DownloadFileInformation() With {
                     .FileId = i + 1,
-                   .FileName = item.Name,
+                   .FileName = item.Name,  'changes by Neha, Vidit
                    .FilePath = dirInfo.FullName + "\" + item.Name
                 })
                 i = i + 1
