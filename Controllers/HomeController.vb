@@ -27,7 +27,7 @@ Public Class HomeController
         'Check whether Directory (Folder) exists.
         If Not Directory.Exists(folderPath) Then
             'If Directory (Folder) does not exists. Create it.
-            Directory.CreateDirectory(folderPath)
+            Directory.CreateDirectory(folderPath)      'changes by Neha
         End If
 
         'Save the File to the Directory (Folder).
