@@ -19,7 +19,7 @@ End Class
 
 Public Class VerifyCodeViewModel
     <Required>
-    Public Property Provider As String
+    Public Property Provider As String  'change by Neha; Vidit; Naveen
     
     <Required>
     <Display(Name:="Code")>
