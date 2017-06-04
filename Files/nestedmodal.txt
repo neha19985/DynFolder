@@ -1,0 +1,38 @@
+ 
+                    <script type="text/javascript">
+    $(function () {
+        $('#approve-btn').click(function () {
+            $('#DemoModal').modal('hide');
+            $('#Registered').modal('show');
+        });
+    });
+                    </script>
+                    <!-- Modal -->
+                    <div id="Registered" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                           
+                                    
+                                    <div class="container">
+                                        <form name="confirmation">
+                                            <div class="flex-container cnfrm">
+                                                <div class="blank"></div>
+                                                <div class="cancel_img_box">
+                                                    <a href="#"><img src="~/img_source/cancel.png" alt="cancel" class="cancel_img" data-dismiss="modal"></a>
+                                                </div>
+                                                <div class="cnfrm_txt_box">
+                                                    <p class="cnfrm_txt">
+                                                        Your request has been registered.<br>
+                                                        We will get back to you shortly.<br>
+                                                        Thank you for choosing SARAL!<br>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                            </div>
+
+                        </div>
+                    </div>

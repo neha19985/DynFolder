@@ -1,0 +1,770 @@
+   
+
+<link rel="stylesheet" href="~/Content/Master.css" type="text/css" />
+<link rel="stylesheet" href="~/Content/enqfrmcss.css" type="text/css" />
+
+<script type="text/javascript" src="~/Scripts/test_js.js"></script>
+  <!--     SLIDER      -->
+    <section class="carousel_section">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height: 100%;">
+            <!-- Indicators -->
+            <ol class="carousel-indicators carousel-indicator_pos_main">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="~/img_source/car.jpg" alt="...">
+
+                </div>
+                <div class="item">
+                    <img src="~/img_source/file.jpg" alt="...">
+
+                </div>
+                <div class="item">
+                    <img src="~/img_source/file1.jpg" alt="...">
+
+                </div>
+                <div class="item">
+                    <img src="~/img_source/file3.jpg" alt="...">
+
+
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control arrowsize" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control arrowsize" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--    ABOUT US    -->
+    <div id="aboutus_tab" class="container-fluid aboutus_section" data-aos="fade-up">
+        <div class="row">
+            <div class="col-md-12 col-xs-12">
+               
+                <p class="aboutus_txt">
+                    Saral Softech Pvt Ltd is a product based IT company catering to the business management needs of the micro businesses, SMEs for more than 25 years. We have a strong and loyal user base, which we are continuously expanding by consistently keeping up with ever changing business requirements, innovative ways of solving business problems and user centric approach.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--  PRODUCT  -->
+    <div  class="product_section" data-aos="fade-up">
+        <h1 class="product_topic"><span>P</span>RODUCTS</h1>
+        <div id="carousel_pro" class="carousel slide product_carousel" data-ride="carousel" data-interval="3000" data-pause="false">
+            <!-- Indicators -->
+            <ol class="carousel-indicators carousel-indicator_pos">
+                <li data-target="#carousel_pro" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel_pro" data-slide-to="1"></li>
+                <li data-target="#carousel_pro" data-slide-to="2"></li>
+                <li data-target="#carousel_pro" data-slide-to="3"></li>
+                <li data-target="#carousel_pro" data-slide-to="4"></li>
+                <li data-target="#carousel_pro" data-slide-to="5"></li>
+                <li data-target="#carousel_pro" data-slide-to="6"></li>
+                <li data-target="#carousel_pro" data-slide-to="7"></li>
+                <li data-target="#carousel_pro" data-slide-to="8"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="contanner-fluid">
+                        <div class="row ">
+                            <a href="#">
+                                <div class="col-xs-offset-1 col-xs-2">
+                                    <img src="~/img_source/img_pro1.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Seed<br>Mills</h3>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro2.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Pharmaceutical<br /> Manufacturers</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro3.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Photo<br>Studio </h3>
+                                </div>
+                                </a>
+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contanner-fluid">
+                        <div class="row">
+                            <a href="#">
+                                <div class="col-xs-offset-1 col-xs-2">
+                                    <img src="~/img_source\img_pro4.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Vegetable<br /> Dealers</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro5.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Glass/Marble</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro6.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Workshop</h3>
+                                </div>
+                                </a>
+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contanner-fluid">
+                        <div class="row">
+                            <a href="#">
+                                <div class="col-xs-offset-1 col-xs-2">
+                                    <img src="~/img_source\img_pro7.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Grain Merchants</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro8.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Garments</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro9.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Jewellers</h3>
+                                </div>
+                                </a>
+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contanner-fluid">
+                        <div class="row">
+                            <a href="#">
+                                <div class="col-xs-offset-1 col-xs-2">
+                                    <img src="~/img_source\img_pro10.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Pesticides<br />Dealers</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro11.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Hospitals</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro12.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Hotels</h3>
+                                </div>
+                                </a>
+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contanner-fluid">
+                        <div class="row">
+                            <a href="#">
+                                <div class="col-xs-offset-1 col-xs-2">
+                                    <img src="~/img_source\img_pro13.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Event Management</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro14.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Dairy</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro15.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Book Store</h3>
+                                </div>
+                                </a>
+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contanner-fluid">
+                        <div class="row">
+                            <a href="#">
+                                <div class="col-xs-offset-1 col-xs-2">
+                                    <img src="~/img_source\img_pro16.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Oil Mills</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro17.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">General<br />Store</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro18.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Lubricants<br />/Paints</h3>
+                                </div>
+                                </a>
+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contanner-fluid">
+                        <div class="row">
+                            <a href="#">
+                                <div class="col-xs-offset-1 col-xs-2">
+                                    <img src="~/img_source\img_pro19.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Stone<br />Merchants</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro20.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Pharmaceutical<br />Retailers</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro21.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Pharmaceutical<br />Distributors</h3>
+                                </div>
+                                </a>
+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contanner-fluid">
+                        <div class="row">
+                            <a href="#">
+                                <div class="col-xs-offset-1 col-xs-2">
+                                    <img src="~/img_source\img_pro22.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Petrol<br>Pumps</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro23.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Mobile</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro24.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Coaching</h3>
+                                </div>
+                                </a>
+</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contanner-fluid">
+                        <div class="row">
+                            <a href="#">
+                                <div class="col-xs-offset-3 col-xs-2">
+                                    <img src="~/img_source\img_pro25.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Restaurants</h3>
+                                </div>
+                                </a>
+                            <a href="#">
+                                <div class="col-xs-offset-2 col-xs-2">
+                                    <img src="~/img_source\img_pro26.png" class="product_carousel_image">
+                                    <h3 class="product_carousel_image_text">Transporters</h3>
+                                </div>
+                                </a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="product_carousel_knowmore" onclick="location.href='@Url.Action("AllProducts", "Home")'">
+           <h1>MORE</h1>
+        </button>
+    </div>
+    <!--   Services   -->
+    <div id="Services" class="service_section" data-aos="fade-up">
+        <h1 class="service_topic"><span>S</span>ERVICE</h1>
+        <div class="contanner-fluid service_content_area">
+            <div class="row" style="width:100%;">
+                <a href="@Url.Action("ServiceWeb", "Home")">
+                    <div class="col-xs-3">
+                        <img src="~/img_source\img_ser_sof.png" class="service_image">
+                        <h3 class="service_image_txt">SOFTWARE<br>DEVELOPMENT</h3>
+                    </div>
+                </a>
+                <a href="@Url.Action("ServiceWeb", "Home")">
+                    <div class="col-xs-3">
+                        <img src="~/img_source\img_ser_mob.png" class="service_image">
+                        <h3 class="service_image_txt">MOBILE<br>APPLICATION<br>DEVELOPMENT</h3>
+                    </div>
+                    </a>
+                <a href="@Url.Action("ServiceWeb", "Home")">
+                    <div class="col-xs-3">
+                        <img src="~/img_source\img_ser_web.png" class="service_image">
+                        <h3 class="service_image_txt">WEB<br>APPLICATION<br>DEVELOPMENT</h3>
+                    </div>
+                    </a>
+                <a href="@Url.Action("ServiceWeb", "Home")">
+                    <div class="col-xs-3">
+                        <img src="~/img_source\img_ser_bi.png" class="service_image">
+                        <h3 class="service_image_txt">ANALYTICS<br>&<br>BUSINESS INTELLIGENCE</h3>
+                    </div>
+                    </a>
+</div>
+        </div>
+    </div>
+    <!--   log in   -->
+    <div id="Login" class="login_section">
+        <div class="container-fluid login_login_section" data-aos="fade-up">
+            <div class="row">
+                <div class="col-xs-8 login_block">
+                    <h1 class="login_login_topic"><span>L</span>OGIN</h1>
+                    <img src="~/img_source/login.png" class="login_login_image" usemap="#loginmap">
+
+                    <!-- <map name="loginmap">
+                <area shape="poly" coords="293,490,1415,489,1411,1507,305,1515" href="http://www.google.com" alt="Customer">
+                <area shape="poly" coords="1514,630,1660,435,2700,435,2850,630,2850,1350,2665,1580,1710,1580,1514,1350" href="http://www.youtube.com" alt="Employee" title="Employee">
+                <area shape="poly" coords="2940,500,3100,350,3920,350,4200,690,4200,1300,4090,1490,2940,1490" href="http://www.facebook.com" alt="Dealer" title="Dealer">
+            </map>-->
+                    <map name="loginmap">
+                        '
+                        <area shape="poly" coords="293,490,1415,489,1411,1507,305,1515" href="@Url.Action("CustLogin", "Home")" alt="Customer" title="Customer">
+                        <area shape="poly" coords="1514,630,1660,435,2700,435,2850,630,2850,1350,2665,1580,1710,1580,1514,1350" href="@Url.Action("ServiceWeb", "Home")" alt="Employee" title="Employee">
+                        <area shape="poly" coords="2940,500,3100,350,3920,350,4200,690,4200,1300,4090,1490,2940,1490" href="@Url.Action("ServiceWeb", "Home")" alt="Dealer" title="Dealer">
+                    </map>
+
+
+                    <h3 class="login_login_txt login_login_txt_customer">CUSTOMER</h3>
+                    <h3 class="login_login_txt login_login_txt_employee">EMPLOYEE</h3>
+                    <h3 class="login_login_txt login_login_txt_dealer">DEALER</h3>
+                </div>
+                <div class="col-xs-4">
+                    <a href="@Url.Action("Enquiry")"><img src="~/img_source/enquire.png" class="login_enquire_image"></a>
+                    <!-- Modal -->
+
+                    <div class="modal fade in" id="myModal" role="form"  >
+                        <div class="modal-dialog modded">
+                            <!--Form Label-->
+
+                            <div class="modal-body" style="padding:0px;">
+                                <div class="container_enq">
+
+
+                                                                
+   
+@Code
+    @Using (Html.BeginForm("EnquirySubmit", "Home", FormMethod.Post, New With {.enctype = "multipart/form-data"}))
+        @<div Class="flex-container_enq form_box_enq">
+            <div Class="question_img_box"><img src="~/img_source/question.png" alt="question" class="question_img"></div>
+            <div Class="enquire_box"><p class="form_font enq_font">ENQUIRE</p></div>
+            <div Class="cancel_img_box_enq"><a href="#" data-dismiss="modal"><img src="~/img_source/cancel.png" alt="cancel" class="cancel_img_enq"></a></div>
+        </div>
+                                    @<!--Email Entry-->
+                                    @<div Class="flex-container_enq email_box_enq">
+                                        <div Class="bluebox_enq">
+                                            <img src="~/img_source/mail.png" alt="email" Class="email_img_enq">
+                                        </div>
+                                        <input type="text" name="email" placeholder="Enter email (Required)" Class="entry_enq">
+                                    </div>
+
+                                        @<!--Name Entry-->
+                                        @<div Class="flex-container_enq name_box_enq">
+                                            <div Class="bluebox_enq">
+                                                <img src="~/img_source/user.png" alt="name" Class="name_img_enq">
+                                            </div>
+                                            <input type = "text" name="name" placeholder="Enter name" Class="name_enq">
+                                        </div>
+                                        @<!--Phone Entry-->
+                                        @<div Class="flex-container_enq phone_box_enq">
+                                            <div Class="bluebox_enq">
+                                                <img src="~/img_source/smartphone.png" alt="phone" Class="phone_img_enq">
+                                            </div>
+                                            <input type = "text" name="phone" placeholder="Enter phone number(Required)" Class="phone_enq">
+                                        </div>
+                                        @<!--Business type-->
+                                        @<div Class="flex-container_enq business_box_enq">
+                                            <div Class="bluebox_enq">
+                                                <img src="~/img_source/briefcase.png" alt="business" Class="business_img_enq">
+                                            </div>
+
+                                            <select Class="form-control business_enq" name="BussType">
+                                                <option value = "0" > - Select Business Type -</option>
+                                                <option value = "863" > Hospitals</Option>
+                                                <option value = "841" > Grain Merchants</Option>
+                                                <option value = "858" > Glass / Marble</Option>
+                                                <option value = "840" > General Trading</Option>
+                                                <option value = "836" > General Agencies</Option>
+                                                <option value = "847" > Garments</Option>
+                                                <option value = "853" > Dairy Depots</Option>
+                                                <option value = "862" > Contract Transporters</Option>
+                                                <option value = "864" > Coaching Centres</Option>
+                                                <option value = "838" > C. & amp; F. Agents</Option>
+                                                <option value = "852" > Book Sellers</Option>
+                                                <option value = "857" > Hotels / Lodges</Option>
+                                                <option value = "848" > Jewellers</Option>
+                                                <option value = "846" > Lubricants / Paints</Option>
+                                                <option value = "839" > Mobile / Sim cards distributors</Option>
+
+                                                <option value = "843" > Oil Mills</Option>
+                                                <option value = "842" > Pesticides dealers</Option>
+                                                <option value = "856" > Petrol Pumps</Option>
+                                                <option value = "834" > Pharma Distributors</Option>
+                                                <option value = "837" > Pharma Manufacturers</Option>
+                                                <option value = "835" > Pharma Retailers</Option>
+                                                <option value = "851" > Photo shops</Option>
+                                                <option value = "849" > Restaurants</Option>
+                                                <option value = "865" > Schools</Option>
+                                                <option value = "845" > Seed Mills</Option>
+                                                <option value = "850" > Stone Merchants</Option>
+
+                                                <option value = "861" > Tent House</Option>
+                                                <option value = "854" > Traders Of excisable goods</Option>
+                                                <option value = "855" > Transporters</Option>
+                                                <option value = "844" > Vegetable Agents</Option>
+                                                <option value = "860" > Vehicle Workshop</Option>
+                                                <option value = "859" > Weighing machines</Option>
+                                                <option value = "-1" style="color:#EA8C00">Others</Option>
+
+                                            </select>
+                                        </div>
+                                        @<!--Message-->
+                                        @<div Class="flex-container_enq message_box_enq">
+                                            <div Class="bluebox_enq special">
+                                                <img src="~/img_source/speech-bubble.png" alt="message" Class="message_img">
+                                            </div>
+                                            <textarea Class="message" name="message" style="height:125px;" placeholder="Enter message(Required) "></textarea>
+                                        </div>
+                                        @<!--Enquiry File-->
+                                        @<div Class="flex-container_enq enq_box">
+                                            <div Class="upload_box">
+                                                <p Class="form_font upload_txt">
+                                                    Upload Enquiry File :<br>
+                                                                                <span Class="uploadfile">(Of supported formats: .doc, .docx, .pdf, .xls, .xlsx)</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        @<div Class="flex-container_enq choose_layer">
+                                             <div class="choose_btn"><input type="file" name="file" Class="custom_btn"></div>
+                                              @*<div class="choose_btn"><button type="button" class="custom_btn">CHOOSE</button></div>*@
+                                              @*<div class="choose_txt"><p class="form_font">No file chosen</p></div>*@
+                                         </div>
+    @*@<div Class="flex-container_enq upload_layer">
+        <div Class="upload_btn"><button type="button" class="custom_btn">UPLOAD</button></div>
+        <div Class="upload_txt1"><p class="form_font">No file uploaded</p></div>
+    </div>*@
+
+    @<div Class="flex-container_enq operation_btn_enq">
+        <Button type="submit" Class="ok_btn_enq" id="enq-btn">OK</Button>
+        <div Class="blank"></div>
+        <Button type="button" Class="cancel_btn_enq" data-dismiss="modal">CANCEL</Button>
+    </div>
+
+
+    End Using
+End Code
+                                    
+                           </div>    
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                  
+
+                 
+                    <a href="#" ><img src="~/img_source/demo1.png" Class="login_demo_image" data-toggle="modal" data-backdrop="static" data-target="#DemoModal" /></a>
+                    <link rel="stylesheet" href="~/Content/requestdemoupdate.css" type="text/css" />
+                    <!-- Modal -->
+
+                    <div Class="modal fade" id="DemoModal" role="form">
+                        <div Class="modal-dialog modded">
+                            <!--Form Label-->
+
+                            <div Class="modal-body" style="padding:0px;">
+                                <div Class="container_demo">
+                                  
+                                    <form method = "post" action="@Url.Action("DemoSubmit")">
+                                        <!--Form Label-->
+                                        <div Class="flex-container_demo form_box_demo">
+                                            <div Class="request_img_box"><img src="~/img_source/demo.png" alt="demo" class="demo_img"></div>
+                                            <div Class="demo_box"><p class="form_font">REQUEST DEMO</p></div>
+                                            <div Class="cancel_img_box_demo"><a href="#" data-dismiss="modal"><img src="~/img_source/cancel.png" alt="cancel" class="cancel_img_demo"></a></div>
+                                        </div>
+                                        <!--Email Entry-->
+                                        <div Class="flex-container_demo email_box_demo">
+                                            <div Class="bluebox_demo">
+                                                <img src="~/img_source/mail.png" alt="email" Class="email_img_demo">
+                                            </div>
+                                            <input type="email" name="email" placeholder="Enter email (Required) " Class="entry_demo">
+                                        </div>
+                                        <!--Name Entry-->
+                                        <div Class="flex-container_demo name_box_demo">
+                                            <div Class="bluebox_demo">
+                                                <img src="~/img_source/user.png" alt="name" Class="name_img_demo">
+                                            </div>
+                                            <input type="text" name="name" placeholder="Enter name " Class="name_demo">
+                                        </div>
+                                        <!--Phone Entry-->
+                                        <div Class="flex-container_demo phone_box_demo">
+                                            <div Class="bluebox_demo">
+                                                <img src="~/img_source/smartphone.png" alt="phone" Class="phone_img_demo">
+                                            </div>
+                                            <input type="tel" name="phone" placeholder="Enter phone number(Required) " Class="phone_demo">
+                                        </div>
+                                        <!--Business type-->
+                                        <div Class="flex-container_demo business_box_demo">
+                                            <div Class="bluebox_demo">
+                                                <img src="~/img_source/briefcase.png" alt="business" Class="business_img_demo">
+                                            </div>
+
+                                            <select Class="form-control business_demo" name="BussType">
+                                                <option value="0"> - Select Business Type -</option>
+                                                <option value="863"> Hospitals</option>
+                                                <option value="841"> Grain Merchants</option>
+                                                <option value="858"> Glass / Marble</option>
+                                                <option value="840"> General Trading</option>
+                                                <option value="836"> General Agencies</option>
+                                                <option value="847"> Garments</option>
+                                                <option value="853"> Dairy Depots</option>
+                                                <option value="862"> Contract Transporters</option>
+                                                <option value="864"> Coaching Centres</option>
+                                                <option value="838"> C. & amp; F. Agents</option>
+                                                <option value="852"> Book Sellers</option>
+                                                <option value="857"> Hotels / Lodges</option>
+                                                <option value="848"> Jewellers</option>
+                                                <option value="846"> Lubricants / Paints</option>
+                                                <option value="839"> Mobile / Sim cards distributors</option>
+
+                                                <option value="843"> Oil Mills</option>
+                                                <option value="842"> Pesticides dealers</option>
+                                                <option value="856"> Petrol Pumps</option>
+                                                <option value="834"> Pharma Distributors</option>
+                                                <option value="837"> Pharma Manufacturers</option>
+                                                <option value="835"> Pharma Retailers</option>
+                                                <option value="851"> Photo shops</option>
+                                                <option value="849"> Restaurants</option>
+                                                <option value="865"> Schools</option>
+                                                <option value="845"> Seed Mills</option>
+                                                <option value="850"> Stone Merchants</option>
+
+                                                <option value="861"> Tent House</option>
+                                                <option value="854"> Traders Of excisable goods</option>
+                                                <option value="855"> Transporters</option>
+                                                <option value="844"> Vegetable Agents</option>
+                                                <option value="860"> Vehicle Workshop</option>
+                                                <option value="859"> Weighing machines</option>
+                                                <option value="-1" style="color:#EA8C00">Others</option>
+
+                                            </select>
+                                        </div>
+                                        <!--Organisation Type-->
+                                        <div Class="flex-container_demo organisation_box_demo">
+                                            <div Class="bluebox_demo">
+                                                <img src="~/img_source/building.png" alt="building" Class="build_img_demo">
+                                            </div>
+                                            <input type="text" name="org" placeholder="Enter organisation name" Class="organisation_demo">
+                                        </div>
+                                        <!--OK And CANCEL buttons-->
+                                        <div Class="flex-container_demo operation_btn_demo">
+                                            <Button type="submit" Class="ok_btn_demo" id="Demo-btn">OK</Button>
+                                            <div Class="blank_demo"></div>
+                                            <Button type="button" Class="cancel_btn_demo" data-dismiss="modal">CANCEL</Button>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <link rel="stylesheet" href="~/Content/requestdemopopup.css" type="text/css" />
+
+                    <!-- Modal -->
+                    <div id="Registered" Class="modal fade" role="dialog">
+                        <div Class="modal-dialog modded">
+
+                            <!-- Modal content-->
+                            <div Class="modal-body" style="padding:0px;" >
+                                <div Class="container_democnfrm">
+                                    <form name = "confirmation" >
+                                        <div class="flex-container_democnfrm">
+                                            <div class="blank_democnfrm"></div>
+                                            <div class="cancel_img_box_democnfrm">
+                                                <a href="#"><img src="~/img_source/cancel.png" alt="cancel" class="cancel_img_democnfrm" data-dismiss="modal"></a>
+                                            </div>
+                                            <div class="cnfrm_txt_box_demo">
+                                                <p class="cnfrm_txt_demo">
+                                                    Your request has been registered.<br>
+                                                    We will get back to you shortly.<br>
+                                                    Thank you for choosing SARAL!<br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <a href ="#"><img src="~/img_source/trynow.png" Class="login_try_image" data-toggle="modal"  data-backdrop="static" data-target="#TryModal"></a>
+                    <link rel="stylesheet" href="~/Content/trynow.css" type="text/css" />
+                    <!-- Modal -->
+
+                    <div Class="modal fade" id="TryModal" role="form">
+                        <div Class="modal-dialog modded">
+                            <!--Form Label-->
+
+                            <div Class="modal-body" style="padding:0px;">
+                                <div Class="container_try">
+                                    <form method = "get" >
+
+                                        <!--Form Label-->
+                                        <div Class="flex-container_try form_box_try">
+                                            <div Class="try_img_box"><img src="~/img_source/download.png" alt="demo" class="try_img"></div>
+                                            <div Class="try_box"><p class="form_font">DOWNLOAD TRIAL</p></div>
+                                            <div Class="cancel_img_box_try"><a href="#" data-dismiss="modal"><img src="~/img_source/cancel.png" alt="cancel" class="cancel_img_try"></a></div>
+                                        </div>
+                                        <!--Email Entry-->
+                                        <div Class="flex-container_try email_box_try">
+                                            <div Class="bluebox_try">
+                                                <img src="~/img_source/mail.png" alt="email" Class="email_img_try">
+                                            </div>
+                                            <input type = "text" name="email" placeholder="Enter email (Required) " Class="entry_try">
+                                        </div>
+                                        <!--Name Entry-->
+                                        <div Class="flex-container_try name_box_try">
+                                            <div Class="bluebox_try">
+                                                <img src="~/img_source/user.png" alt="name" Class="name_img_try">
+                                            </div>
+                                            <input type = "text" name="name" placeholder="Enter name " Class="name_try">
+                                        </div>
+                                        <!--Phone Entry-->
+                                        <div Class="flex-container_try phone_box_try">
+                                            <div Class="bluebox_try">
+                                                <img src="~/img_source/smartphone.png" alt="phone" Class="phone_img_try">
+                                            </div>
+                                            <input type = "text" name="phone" placeholder="Enter phone number(Required) " Class="phone_try">
+                                        </div>
+                                        <!--Business type-->
+                                        <div Class="flex-container_try business_box_try">
+                                            <div Class="bluebox_try">
+                                                <img src="~/img_source/briefcase.png" alt="business" Class="business_img_try">
+                                            </div>
+                                            <select Class="form-control business_try">
+                                               
+                                                <option value="0"> - Select Business Type -</option>
+                                                <option value="863"> Hospitals</option>
+                                                <option value="841"> Grain Merchants</option>
+                                                <option value="858"> Glass / Marble</option>
+                                                <option value="840"> General Trading</option>
+                                                <option value="836"> General Agencies</option>
+                                                <option value="847"> Garments</option>
+                                                <option value="853"> Dairy Depots</option>
+                                                <option value="862"> Contract Transporters</option>
+                                                <option value="864"> Coaching Centres</option>
+                                                <option value="838"> C. & amp; F. Agents</option>
+                                                <option value="852"> Book Sellers</option>
+                                                <option value="857"> Hotels / Lodges</option>
+                                                <option value="848"> Jewellers</option>
+                                                <option value="846"> Lubricants / Paints</option>
+                                                <option value="839"> Mobile / Sim cards distributors</option>
+
+                                                <option value="843"> Oil Mills</option>
+                                                <option value="842"> Pesticides dealers</option>
+                                                <option value="856"> Petrol Pumps</option>
+                                                <option value="834"> Pharma Distributors</option>
+                                                <option value="837"> Pharma Manufacturers</option>
+                                                <option value="835"> Pharma Retailers</option>
+                                                <option value="851"> Photo shops</option>
+                                                <option value="849"> Restaurants</option>
+                                                <option value="865"> Schools</option>
+                                                <option value="845"> Seed Mills</option>
+                                                <option value="850"> Stone Merchants</option>
+
+                                                <option value="861"> Tent House</option>
+                                                <option value="854"> Traders Of excisable goods</option>
+                                                <option value="855"> Transporters</option>
+                                                <option value="844"> Vegetable Agents</option>
+                                                <option value="860"> Vehicle Workshop</option>
+                                                <option value="859"> Weighing machines</option>
+                                                <option value="-1" style="color:#EA8C00">Others</option>
+
+                                            </select>
+                                        </div>
+                                        <!--OK And CANCEL buttons-->
+                                        <div Class="flex-container_try operation_btn_try">
+                                            <Button type ="submit" Class="ok_btn_try" id="try-btn" data-target="#DownloadModal" data-toggle="modal" data-dismiss="modal">OK</button>
+                                            <div Class="blank"></div>
+                                            <Button type = "button" Class="cancel_btn_try" data-dismiss="modal">CANCEL</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <link rel="stylesheet" href="~/Content/downloadpopup.css" type="text/css" />
+
+                    <!-- Modal -->
+                    <div id="DownloadModal" Class="modal fade" role="dialog">
+                        <div Class="modal-dialog modded">
+
+                            <!-- Modal content-->
+                            <div Class="modal-body" style="padding:0px;">
+                                <div Class="container_whole">
+                                    <form>
+                                        <!--Form Label-->
+                                        <div Class="flex-container_download form_box_download">
+                                            <div Class="try_img_box_download"><img src="~/img_source/download.png" alt="demo" class="try_img_download"></div>
+                                            <div Class="try_box_download"><p class="form_font">DOWNLOAD TRIAL</p></div>
+                                            <div Class="cancel_img_box_download"><a href="#" data-dismiss="modal"><img src="~/img_source/cancel.png" alt="cancel" class="cancel_img_download"></a></div>
+                                        </div>
+                                        <div Class="flex-container_wrap ">
+                                            <div Class="text_box"><p class="form_font">Click the download button to begin</p></div>
+                                            <div Class="icon_box"><img src="~/img_source/download.png" alt="demo" class="icon_img"></div>
+                                            <Button type = "button" Class="download_btn" id="download-btn" data-backdrop="static" data-dismiss="modal" data-target="#ConfirmModal" data-toggle="modal">DOWNLOAD</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <link rel="stylesheet" href="~/Content/confirmation.css" type="text/css" />
+
+                <!-- Modal -->
+                <div id="ConfirmModal" Class="modal fade" role="dialog">
+                    <div Class="modal-dialog modded">
+
+                        <!-- Modal content-->
+                        <div Class="modal-body" style="padding:0px;">
+                            <div Class="container_cnfrm">
+                                <form name = "confirmation" >
+                                    <div class="flex-container_cnfrm">
+                                        <div class="blank_cnfrm"></div>
+                                        <div class="cancel_img_box_cnfrm">
+                                            <a href="#"><img src="~/img_source/cancel.png" alt="cancel" class="cancel_img_cnfrm" data-dismiss="modal"></a>
+                                        </div>
+                                        <div class="cnfrm_txt_box">
+                                            <p class="cnfrm_txt">Thank you for downloading SARAL!<br></p>
+                                        </div>
+                                    </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+
